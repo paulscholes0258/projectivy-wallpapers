@@ -1,0 +1,35 @@
+{
+  "playlists": [
+    {
+      "title": "4K Test Set 01",
+      "random_order": true,
+      "loop": true,
+      "wallpapers": [
+        {
+          "type": "image",
+          "url_img": "https://lh3.googleusercontent.com/d/1-zw9AC19MSyELEoij2_6_UlFnQtY-uq4=w3840-h2160"
+        },
+        {
+          "type": "image",
+          "url_img": "https://lh3.googleusercontent.com/d/10nVZfp5VQmw_Oi7La9eiX4WSIbigoyCZ=w3840-h2160"
+        },
+        {
+          "type": "image",
+          "url_img": "https://lh3.googleusercontent.com/d/10UQjx4ScqExXRHnZ_HTk0cbhP2iQ-yKS=w3840-h2160"
+        },
+        {
+          "type": "image",
+          "url_img": "https://lh3.googleusercontent.com/d/11iMu7pNYH5dFhtp8P-4E9VVPf8X2YlfQ=w3840-h2160"
+        },
+        {
+          "type": "image",
+          "url_img": "https://lh3.googleusercontent.com/d/12f9dHxAMxOYfq0ZQhc_d2IqoKZVwyJ4i=w3840-h2160"
+        },
+        {
+          "type": "image",
+          "url_img": "https://lh3.googleusercontent.com/d/13qYF8zdpe87S7Xz0zMp8mjHF2OYe2qAX=w3840-h2160"
+        }
+      ]
+    }
+  ]
+}
