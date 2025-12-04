@@ -1,29 +1,26 @@
-{
-  "mode": "random_on_boot",
-  "wallpapers": [
-    {
-      "title": "Rice Fields",
-      "url_img": "https://raw.githubusercontent.com/paulscholes0258/projectivy-wallpapers/main/rice-fields-agriculture-paddy-fields-landscape-terrace-7301x4873-1247.jpg"
-    },
-    {
-      "title": "Seven Sisters Waterfalls - Norway",
-      "url_img": "https://raw.githubusercontent.com/paulscholes0258/projectivy-wallpapers/main/seven-sisters-waterfalls-norway-geirangerfjorden-cliffs-3840x2400-4472.jpg"
-    },
-    {
-      "title": "Tea Fields Japan",
-      "url_img": "https://raw.githubusercontent.com/paulscholes0258/projectivy-wallpapers/main/tea-form-tea-fields-honshu-island-japan-aerial-view-5420x3049-7955.jpg"
-    },
-    {
-      "title": "Valley of Funes",
-      "url_img": "https://raw.githubusercontent.com/paulscholes0258/projectivy-wallpapers/main/valley-of-funes-mountains-village-countryside-landscape-5580x3721-1350.jpg"
-    },
-    {
-      "title": "Vernazza Cinque Terre",
-      "url_img": "https://raw.githubusercontent.com/paulscholes0258/projectivy-wallpapers/main/vernazza-cinque-4000x2956-13110.jpg"
-    },
-    {
-      "title": "Windmills Netherlands",
-      "url_img": "https://raw.githubusercontent.com/paulscholes0258/projectivy-wallpapers/main/windmills-at-kinderdijk-south-holland-netherlands-7876x4430-8078.jpg"
-    }
-  ]
-}
+[
+  {
+    "title": "Rice Fields",
+    "url_img": "https://raw.githubusercontent.com/paulscholes0258/projectivy-wallpapers/main/rice-fields-agriculture-paddy-fields-landscape-terrace-7301x4873-1247.jpg"
+  },
+  {
+    "title": "Seven Sisters Waterfalls - Norway",
+    "url_img": "https://raw.githubusercontent.com/paulscholes0258/projectivy-wallpapers/main/seven-sisters-waterfalls-norway-geirangerfjorden-cliffs-3840x2400-4472.jpg"
+  },
+  {
+    "title": "Tea Fields Japan",
+    "url_img": "https://raw.githubusercontent.com/paulscholes0258/projectivy-wallpapers/main/tea-form-tea-fields-honshu-island-japan-aerial-view-5420x3049-7955.jpg"
+  },
+  {
+    "title": "Valley of Funes",
+    "url_img": "https://raw.githubusercontent.com/paulscholes0258/projectivy-wallpapers/main/valley-of-funes-mountains-village-countryside-landscape-5580x3721-1350.jpg"
+  },
+  {
+    "title": "Vernazza Cinque Terre",
+    "url_img": "https://raw.githubusercontent.com/paulscholes0258/projectivy-wallpapers/main/vernazza-cinque-4000x2956-13110.jpg"
+  },
+  {
+    "title": "Windmills Netherlands",
+    "url_img": "https://raw.githubusercontent.com/paulscholes0258/projectivy-wallpapers/main/windmills-at-kinderdijk-south-holland-netherlands-7876x4430-8078.jpg"
+  }
+]
