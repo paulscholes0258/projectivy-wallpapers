@@ -1,0 +1,38 @@
+name: Auto Generate wallpapers.json
+
+on:
+  push:
+    paths:
+      - "*.jpg"
+      - "*.jpeg"
+      - "*.png"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Generate wallpapers.json
+        run: |
+          echo "[" > wallpapers.json
+          first=true
+          for f in *.jpg *.jpeg *.png; do
+            if [ "$first" = true ]; then
+              first=false
+            else
+              echo "," >> wallpapers.json
+            fi
+            echo "{\"title\": \"${f%.*}\", \"url_img\": \"https://raw.githubusercontent.com/${{ github.repository }}/main/$f\"}" >> wallpapers.json
+          done
+          echo "]" >> wallpapers.json
+
+      - name: Commit output
+        run: |
+          git config user.name "Auto JSON Bot"
+          git config user.email "bot@github.com"
+          git add wallpapers.json
+          git commit -m "Auto update wallpapers.json" || echo "No changes to commit"
+          git push
