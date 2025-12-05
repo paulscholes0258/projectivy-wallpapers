@@ -1,83 +1,41 @@
 [
-  {
-    "title": "Rice Fields",
-    "url_img": "https://raw.githubusercontent.com/paulscholes0258/projectivy-wallpapers/main/rice-fields-agriculture-paddy-fields-landscape-terrace-7301x4873-1247.jpg"
-  },
-  {
-    "title": "Seven Sisters Waterfalls - Norway",
-    "url_img": "https://raw.githubusercontent.com/paulscholes0258/projectivy-wallpapers/main/seven-sisters-waterfalls-norway-geirangerfjorden-cliffs-3840x2400-4472.jpg"
-  },
-  {
-    "title": "Tea Fields Japan",
-    "url_img": "https://raw.githubusercontent.com/paulscholes0258/projectivy-wallpapers/main/tea-form-tea-fields-honshu-island-japan-aerial-view-5420x3049-7955.jpg"
-  },
-  {
-    "title": "Valley of Funes",
-    "url_img": "https://raw.githubusercontent.com/paulscholes0258/projectivy-wallpapers/main/valley-of-funes-mountains-village-countryside-landscape-5580x3721-1350.jpg"
-  },
-  {
-    "title": "Vernazza Cinque Terre",
-    "url_img": "https://raw.githubusercontent.com/paulscholes0258/projectivy-wallpapers/main/vernazza-cinque-4000x2956-13110.jpg"
-  },
-  {
-    "title": "Windmills Netherlands",
-    "url_img": "https://raw.githubusercontent.com/paulscholes0258/projectivy-wallpapers/main/windmills-at-kinderdijk-south-holland-netherlands-7876x4430-8078.jpg"
-  },
-
-
-
-  {
-    "title": "PIC (2)",
-    "url_img": "https://raw.githubusercontent.com/paulscholes0258/projectivy-wallpapers/main/PIC%20(2).jpg"
-  },
-  {
-    "title": "Antonius Landscape",
-    "url_img": "https://raw.githubusercontent.com/paulscholes0258/projectivy-wallpapers/main/pexels-antonius-558312813-33285897.jpg"
-  },
-  {
-    "title": "Chi N Ba Landscape",
-    "url_img": "https://raw.githubusercontent.com/paulscholes0258/projectivy-wallpapers/main/pexels-chi-n-ba-3626645-28778310.jpg"
-  },
-  {
-    "title": "Matteo Parisi Mountain",
-    "url_img": "https://raw.githubusercontent.com/paulscholes0258/projectivy-wallpapers/main/pexels-matteo-parisi-27261509-17807444.jpg"
-  },
-  {
-    "title": "Pixabay Lake",
-    "url_img": "https://raw.githubusercontent.com/paulscholes0258/projectivy-wallpapers/main/pexels-pixabay-280221.jpg"
-  },
-  {
-    "title": "Quang Nguyen Vinh Vietnam",
-    "url_img": "https://raw.githubusercontent.com/paulscholes0258/projectivy-wallpapers/main/pexels-quang-nguyen-vinh-222549-6128997.jpg"
-  },
-  {
-    "title": "Wangming Photo",
-    "url_img": "https://raw.githubusercontent.com/paulscholes0258/projectivy-wallpapers/main/pexels-wangming-photo-115695-354988.jpg"
-  }
-
-  {
-    "title": "Asadphoto",
-    "url_img": "https://raw.githubusercontent.com/paulscholes0258/projectivy-wallpapers/main/pexels-asadphoto-1450360.jpg"
-  },
-  {
-    "title": "Bugatti Brouillard 2025",
-    "url_img": "https://raw.githubusercontent.com/paulscholes0258/projectivy-wallpapers/main/bugatti-brouillard-2025-5120x2880-23559.jpg"
-  },
-  {
-    "title": "City Of Arts And Sciences",
-    "url_img": "https://raw.githubusercontent.com/paulscholes0258/projectivy-wallpapers/main/city-of-arts-and-sciences-science-museum-modern-5184x2740-288.jpg"
-  },
-  {
-    "title": "Dragon Bridge Sunset",
-    "url_img": "https://raw.githubusercontent.com/paulscholes0258/projectivy-wallpapers/main/dragon-bridge-sunset-dawn-reflection-arch-bridge-h-n-river-6016x4016-1007.jpg"
-  },
-  {
-    "title": "Eagle Iceberg",
-    "url_img": "https://raw.githubusercontent.com/paulscholes0258/projectivy-wallpapers/main/eagle-iceberg-birds-of-prey-raptors-carnivorous-bird-winter-3840x2400-3925.jpg"
-  },
-  {
-    "title": "Golden Gate Bridge",
-    "url_img": "https://raw.githubusercontent.com/paulscholes0258/projectivy-wallpapers/main/golden-gate-bridge-evening-coastline-san-francisco-beach-3840x2400-57.jpg"
-  }
-
+  {"title":"PIC (2)","url_img":"https://raw.githubusercontent.com/paulscholes0258/projectivy-wallpapers/main/PIC (2).jpg"}
+,
+  {"title":"bugatti brouillard 2025 5120x2880 23559","url_img":"https://raw.githubusercontent.com/paulscholes0258/projectivy-wallpapers/main/bugatti-brouillard-2025-5120x2880-23559.jpg"}
+,
+  {"title":"city of arts and sciences science museum modern 5184x2740 288","url_img":"https://raw.githubusercontent.com/paulscholes0258/projectivy-wallpapers/main/city-of-arts-and-sciences-science-museum-modern-5184x2740-288.jpg"}
+,
+  {"title":"dragon bridge sunset dawn reflection arch bridge h n river 6016x4016 1007","url_img":"https://raw.githubusercontent.com/paulscholes0258/projectivy-wallpapers/main/dragon-bridge-sunset-dawn-reflection-arch-bridge-h-n-river-6016x4016-1007.jpg"}
+,
+  {"title":"eagle iceberg birds of prey raptors carnivorous bird winter 3840x2400 3925","url_img":"https://raw.githubusercontent.com/paulscholes0258/projectivy-wallpapers/main/eagle-iceberg-birds-of-prey-raptors-carnivorous-bird-winter-3840x2400-3925.jpg"}
+,
+  {"title":"golden gate bridge evening coastline san francisco beach 3840x2400 57","url_img":"https://raw.githubusercontent.com/paulscholes0258/projectivy-wallpapers/main/golden-gate-bridge-evening-coastline-san-francisco-beach-3840x2400-57.jpg"}
+,
+  {"title":"pexels antonius 558312813 33285897","url_img":"https://raw.githubusercontent.com/paulscholes0258/projectivy-wallpapers/main/pexels-antonius-558312813-33285897.jpg"}
+,
+  {"title":"pexels asadphoto 1450360","url_img":"https://raw.githubusercontent.com/paulscholes0258/projectivy-wallpapers/main/pexels-asadphoto-1450360.jpg"}
+,
+  {"title":"pexels chi n ba 3626645 28778310","url_img":"https://raw.githubusercontent.com/paulscholes0258/projectivy-wallpapers/main/pexels-chi-n-ba-3626645-28778310.jpg"}
+,
+  {"title":"pexels jplenio 4130414","url_img":"https://raw.githubusercontent.com/paulscholes0258/projectivy-wallpapers/main/pexels-jplenio-4130414.jpg"}
+,
+  {"title":"pexels matteo parisi 27261509 17807444","url_img":"https://raw.githubusercontent.com/paulscholes0258/projectivy-wallpapers/main/pexels-matteo-parisi-27261509-17807444.jpg"}
+,
+  {"title":"pexels pixabay 280221","url_img":"https://raw.githubusercontent.com/paulscholes0258/projectivy-wallpapers/main/pexels-pixabay-280221.jpg"}
+,
+  {"title":"pexels quang nguyen vinh 222549 6128997","url_img":"https://raw.githubusercontent.com/paulscholes0258/projectivy-wallpapers/main/pexels-quang-nguyen-vinh-222549-6128997.jpg"}
+,
+  {"title":"pexels wangming photo 115695 354988","url_img":"https://raw.githubusercontent.com/paulscholes0258/projectivy-wallpapers/main/pexels-wangming-photo-115695-354988.jpg"}
+,
+  {"title":"rice fields agriculture paddy fields landscape terrace 7301x4873 1247","url_img":"https://raw.githubusercontent.com/paulscholes0258/projectivy-wallpapers/main/rice-fields-agriculture-paddy-fields-landscape-terrace-7301x4873-1247.jpg"}
+,
+  {"title":"seven sisters waterfalls norway geirangerfjorden cliffs 3840x2400 4472","url_img":"https://raw.githubusercontent.com/paulscholes0258/projectivy-wallpapers/main/seven-sisters-waterfalls-norway-geirangerfjorden-cliffs-3840x2400-4472.jpg"}
+,
+  {"title":"tea form tea fields honshu island japan aerial view 5420x3049 7955","url_img":"https://raw.githubusercontent.com/paulscholes0258/projectivy-wallpapers/main/tea-form-tea-fields-honshu-island-japan-aerial-view-5420x3049-7955.jpg"}
+,
+  {"title":"valley of funes mountains village countryside landscape 5580x3721 1350","url_img":"https://raw.githubusercontent.com/paulscholes0258/projectivy-wallpapers/main/valley-of-funes-mountains-village-countryside-landscape-5580x3721-1350.jpg"}
+,
+  {"title":"vernazza cinque 4000x2956 13110","url_img":"https://raw.githubusercontent.com/paulscholes0258/projectivy-wallpapers/main/vernazza-cinque-4000x2956-13110.jpg"}
+,
+  {"title":"windmills at kinderdijk south holland netherlands 7876x4430 8078","url_img":"https://raw.githubusercontent.com/paulscholes0258/projectivy-wallpapers/main/windmills-at-kinderdijk-south-holland-netherlands-7876x4430-8078.jpg"}
 ]
