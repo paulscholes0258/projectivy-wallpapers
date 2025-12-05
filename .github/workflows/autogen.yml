@@ -2,48 +2,43 @@ name: Auto Generate wallpapers.json
 
 on:
   push:
-    branches: [ main ]
+    branches: [ "main" ]
     paths:
       - "*.jpg"
       - "*.jpeg"
       - "*.png"
-      - "*.webp"
+      - ".github/workflows/autogen.yml"
+
+  workflow_dispatch:  # có nút Run manual
+
+permissions:
+  contents: write  # BẮT BUỘC để commit vào repo
 
 jobs:
-  build:
+  build-json:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v4
+      - name: Checkout Repo
+        uses: actions/checkout@v3
 
       - name: Generate wallpapers.json
         run: |
           echo "[" > wallpapers.json
-          first=true
-          for img in *.jpg *.jpeg *.png *.webp; do
-            [ -f "$img" ] || continue
-
-            # Convert filename -> Title
-            TITLE=$(echo "$img" | sed 's/\.[^.]*$//' | sed 's/[-_]/ /g' | awk '{for(i=1;i<=NF;i++)$i=toupper(substr($i,1,1)) substr($i,2)}1')
-            RAW="https://raw.githubusercontent.com/${{ github.repository }}/main/$img"
-
-            if [ "$first" = false ]; then echo "," >> wallpapers.json; fi
-            first=false
-
-            cat <<EOF >> wallpapers.json
-  {
-    "title": "$TITLE",
-    "url_img": "$RAW"
-  }
-EOF
+          FIRST=true
+          for IMG in *.jpg *.jpeg *.png; do
+            if [ -f "$IMG" ]; then
+              TITLE=$(echo "$IMG" | sed 's/-/ /g' | sed 's/.jpg//g' | sed 's/.jpeg//g' | sed 's/.png//g')
+              [[ "$FIRST" == true ]] && FIRST=false || echo "," >> wallpapers.json
+              echo "  {\"title\":\"$TITLE\",\"url_img\":\"https://raw.githubusercontent.com/paulscholes0258/projectivy-wallpapers/main/$IMG\"}" >> wallpapers.json
+            fi
           done
           echo "]" >> wallpapers.json
 
-      - name: Commit JSON update
+      - name: Commit JSON
         run: |
-          git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
+          git config user.name "GitHub Actions"
           git add wallpapers.json
-          git commit -m "Auto update wallpapers.json" || exit 0
+          git commit -m "Auto update wallpapers.json" || echo "No changes to commit"
           git push
