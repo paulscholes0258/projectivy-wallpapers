@@ -2,15 +2,12 @@ name: Auto Generate wallpapers.json
 
 on:
   push:
-    branches:
-      - main      # Tự chạy mỗi khi có commit lên main
+    branches: [ main ]
     paths:
       - "*.jpg"
       - "*.jpeg"
       - "*.png"
       - "*.webp"
-      - ".github/workflows/autogen.yml"
-      - "README.md"
 
 jobs:
   build:
@@ -23,33 +20,30 @@ jobs:
       - name: Generate wallpapers.json
         run: |
           echo "[" > wallpapers.json
-          FIRST=true
+          first=true
           for img in *.jpg *.jpeg *.png *.webp; do
             [ -f "$img" ] || continue
 
-            if [ "$FIRST" = true ]; then
-              FIRST=false
-            else
-              echo "," >> wallpapers.json
-            fi
-
-            TITLE=$(echo "$img" | sed 's/\.[^.]*$//' | sed 's/-/ /g' | sed 's/_/ /g')
+            # Convert filename -> Title
+            TITLE=$(echo "$img" | sed 's/\.[^.]*$//' | sed 's/[-_]/ /g' | awk '{for(i=1;i<=NF;i++)$i=toupper(substr($i,1,1)) substr($i,2)}1')
             RAW="https://raw.githubusercontent.com/${{ github.repository }}/main/$img"
+
+            if [ "$first" = false ]; then echo "," >> wallpapers.json; fi
+            first=false
 
             cat <<EOF >> wallpapers.json
   {
-    "title": "$(echo $TITLE | sed 's/\b\(.\)/\u\1/g')",
+    "title": "$TITLE",
     "url_img": "$RAW"
   }
 EOF
-
           done
           echo "]" >> wallpapers.json
 
-      - name: Commit & Push changes
+      - name: Commit JSON update
         run: |
-          git config user.email "github-actions@github.com"
-          git config user.name "GitHub Action"
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
           git add wallpapers.json
-          git commit -m "Auto update wallpapers.json" || echo "No changes to commit"
+          git commit -m "Auto update wallpapers.json" || exit 0
           git push
